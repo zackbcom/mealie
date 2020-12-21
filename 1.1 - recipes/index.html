@@ -399,14 +399,14 @@
                 <h1 id="recipes">Recipes</h1>
 <h2 id="url-import">URL Import</h2>
 <p>Adding a recipe can be as easy as copying the recipe URL into mealie and letting the web scrapper try to pull down the information. Currently this scraper is implemented with <a href="https://pypi.org/project/scrape-schema-recipe/">scrape-schema-recipe package</a>. You may have mixed results on some websites, especially with blogs or non specific recipe websites. See the bulk import Option below for another a convient way to add blog style recipes into Mealie.</p>
-<p><img alt="" src="/gifs/url-demo.gif" /></p>
+<p><img alt="" src="../gifs/url-demo.gif" /></p>
 <h2 id="recipe-editor">Recipe Editor</h2>
 <p>Recipes can be edited and created via the UI. This is done with both a form based approach where you have a UI to work with as well as with a in browser JSON Editor. The JSON editor allows you to easily copy and paste data from other sources. </p>
 <p>You can also add a custom recipe with the UI editor built into the web view. After logging in as a user you'll have access to the editor to make changes to all the content in the recipe. </p>
-<p><img alt="" src="/gifs/editor-demo.gif" /></p>
+<p><img alt="" src="../gifs/editor-demo.gif" /></p>
 <h2 id="bulk-import">Bulk Import</h2>
 <p>Mealie also supports bulk import of recipe instructions and ingredients. Select "Bulk Add" in the editor and paste in your plain text data to be parsed. Each line is treated as one entry and will be appended to the existing ingredients or instructions if they exist. Empty lines will be stripped from the text.</p>
-<p><img alt="" src="/gifs/bulk-add-demo.gif" /></p>
+<p><img alt="" src="../gifs/bulk-add-demo.gif" /></p>
 <h2 id="schema">Schema</h2>
 <p>Recipes are stored in the json-like format in mongoDB and then sent and edited in json format on the frontend. Each recipes uses <a href="https://schema.org/Recipe">Recipe Schema</a> as a general guide with some additional properties specific to Mealie.</p>
 <h3 id="example">Example</h3>
