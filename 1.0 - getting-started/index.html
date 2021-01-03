@@ -10,7 +10,7 @@
       
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.3">
     
     
       
@@ -18,10 +18,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.19753c6b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3b61ea93.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.39b8e14a.min.css">
         
       
     
@@ -29,7 +29,7 @@
     
       
         
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
       
@@ -53,6 +53,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
       
   
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -82,18 +83,20 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
     </label>
     <div class="md-header-nav__title" data-md-component="header-title">
-      
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
             Mealie
           </span>
-          <span class="md-header-nav__topic md-ellipsis">
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
             
               Getting Started
             
           </span>
         </div>
-      
+      </div>
     </div>
     
       <label class="md-header-nav__button md-icon" for="__search">
@@ -152,10 +155,14 @@
         <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
+
+
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
@@ -188,6 +195,7 @@
       
 
 
+
   <li class="md-nav__item">
     <a href=".." class="md-nav__link">
       About The Project
@@ -198,6 +206,7 @@
       
       
       
+
 
   
 
@@ -232,8 +241,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation-docker" class="md-nav__link">
-    Installation - Docker
+  <a href="#env-variables" class="md-nav__link">
+    Env Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    Docker Compose
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-tasks-template" class="md-nav__link">
+    Ansible Tasks Template
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployed-as-a-python-application" class="md-nav__link">
+    Deployed as a Python Application
   </a>
   
 </li>
@@ -250,6 +280,7 @@
       
 
 
+
   <li class="md-nav__item">
     <a href="../1.1%20-%20recipes/" class="md-nav__link">
       Recipes
@@ -260,6 +291,7 @@
       
       
       
+
 
 
   <li class="md-nav__item">
@@ -274,6 +306,7 @@
       
 
 
+
   <li class="md-nav__item">
     <a href="../1.3%20-%20admin-panel/" class="md-nav__link">
       Site Settings Panel
@@ -284,6 +317,20 @@
       
       
       
+
+
+
+  <li class="md-nav__item">
+    <a href="../1.9%20-%20release-notes/" class="md-nav__link">
+      Release Notes
+    </a>
+  </li>
+
+    
+      
+      
+      
+
 
 
   <li class="md-nav__item">
@@ -300,7 +347,8 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -317,8 +365,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation-docker" class="md-nav__link">
-    Installation - Docker
+  <a href="#env-variables" class="md-nav__link">
+    Env Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    Docker Compose
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-tasks-template" class="md-nav__link">
+    Ansible Tasks Template
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployed-as-a-python-application" class="md-nav__link">
+    Deployed as a Python Application
   </a>
   
 </li>
@@ -341,10 +410,47 @@
                 
                 
                 <h1 id="getting-started">Getting Started</h1>
-<p>To deploy docker on your local network it is highly recommended to use docker to deploy the image straight from dockerhub. Using the docker-compose below you should be able to get a stack up and running easily by changing a few default values and deploying. </p>
-<p>Alternatively, this project is run in python. If you are deadset on deploying on a linux machine you can run this in an python enviromnet with a dedicated MongoDatabase. Provided that you know thats how you want to host the application, I'll assume you know how to do that.</p>
+<p>To deploy docker on your local network it is highly recommended to use docker to deploy the image straight from dockerhub. Using the docker-compose below you should be able to get a stack up and running easily by changing a few default values and deploying. Currently the only supported database is mongo.</p>
 <p><a href="https://docs.docker.com/get-docker/">Get Docker</a></p>
-<h3 id="installation-docker">Installation - Docker</h3>
+<p><a href="https://hub.docker.com/r/hkotel/mealie">Mealie Docker Image</a></p>
+<h2 id="env-variables">Env Variables</h2>
+<table>
+<thead>
+<tr>
+<th>Variables</th>
+<th>default</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>db_username</td>
+<td>root</td>
+<td>The Mongodb username you specified in your mongo container</td>
+</tr>
+<tr>
+<td>db_password</td>
+<td>example</td>
+<td>The Mongodb password you specified in your mongo container</td>
+</tr>
+<tr>
+<td>db_host</td>
+<td>mongo</td>
+<td>The host address of MongoDB if you're in docker and using the same network you can use mongo as the host name</td>
+</tr>
+<tr>
+<td>db_port</td>
+<td>27017</td>
+<td>the port to access MongoDB 27017 is the default for mongo</td>
+</tr>
+<tr>
+<td>TZ</td>
+<td></td>
+<td>You should set your time zone accordingly so the date/time features work correctly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="docker-compose">Docker Compose</h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># docker-compose.yml</span>
 <span class="nt">version</span><span class="p">:</span> <span class="s">&quot;3.1&quot;</span>
 <span class="nt">services</span><span class="p">:</span>
@@ -359,6 +465,7 @@
       <span class="nt">db_password</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">example</span>  <span class="c1"># Your Mongo DB Password - Please Change</span>
       <span class="nt">db_host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mongo</span>
       <span class="nt">db_port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">27017</span>    <span class="c1"># The Default port for Mongo DB</span>
+      <span class="nt">TZ</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">America/Anchorage</span>
     <span class="nt">volumes</span><span class="p">:</span>
       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">./data/img:/app/data/img</span>
       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">./data/backups:/app/data/backups</span>
@@ -379,6 +486,54 @@
       <span class="nt">ME_CONFIG_MONGODB_ADMINUSERNAME</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">root</span>
       <span class="nt">ME_CONFIG_MONGODB_ADMINPASSWORD</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">example</span>
 </code></pre></div>
+<h2 id="ansible-tasks-template">Ansible Tasks Template</h2>
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ensures Mealie directory dir exists</span>
+  <span class="nt">file</span><span class="p">:</span>
+    <span class="nt">path</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">docker_dir</span><span class="nv"> </span><span class="s">}}/mealie/&quot;</span>
+    <span class="nt">state</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">directory</span>
+    <span class="nt">owner</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">main_user}}&quot;</span>
+    <span class="nt">group</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">main_group</span><span class="nv"> </span><span class="s">}}&quot;</span>
+
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ensures Mealie directory dir exists</span>
+  <span class="nt">file</span><span class="p">:</span>
+    <span class="nt">path</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">docker_dir</span><span class="nv"> </span><span class="s">}}/mealie/&quot;</span>
+    <span class="nt">state</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">directory</span>
+    <span class="nt">owner</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">main_user}}&quot;</span>
+    <span class="nt">group</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">main_group</span><span class="nv"> </span><span class="s">}}&quot;</span>
+
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Deploy Monogo Database</span>
+  <span class="nt">docker_container</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mealie-mongo</span>
+    <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mongo</span>
+    <span class="nt">restart_policy</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unless-stopped</span>
+    <span class="nt">networks</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">web</span>
+    <span class="nt">env</span><span class="p">:</span>
+      <span class="nt">MONGO_INITDB_ROOT_USERNAME</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">root</span>
+      <span class="nt">MONGO_INITDB_ROOT_PASSWORD</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">example</span>
+
+
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">deploy Mealie Docker Container</span>
+  <span class="nt">docker_container</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mealie</span>
+    <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">hkotel/mealie:latest</span>
+    <span class="nt">restart_policy</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unless-stopped</span>
+    <span class="nt">ports</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">9090:9000</span>
+    <span class="nt">networks</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">web</span>
+    <span class="nt">mounts</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">bind</span>
+        <span class="nt">source</span><span class="p">:</span> <span class="s">&quot;{{</span><span class="nv"> </span><span class="s">docker_dir</span><span class="nv"> </span><span class="s">}}/mealie&quot;</span>
+        <span class="nt">target</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/app/data</span>
+    <span class="nt">env</span><span class="p">:</span>
+      <span class="nt">db_username</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">root</span>
+      <span class="nt">db_password</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">example</span>
+      <span class="nt">db_host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mealie-mongo</span>
+      <span class="nt">db_port</span><span class="p">:</span> <span class="s">&quot;27017&quot;</span>
+</code></pre></div>
+<h2 id="deployed-as-a-python-application">Deployed as a Python Application</h2>
+<p>Alternatively, this project is built on Python and Mongodb. If you are dead set on deploying on a linux machine you can run this in an python environment with a dedicated MongoDatabase. Provided that you know thats how you want to host the application, I'll assume you know how to do that. I may or may not get around to writing this guide. I'm open to pull requests if anyone has a good guide on it. </p>
                 
               
               
@@ -445,15 +600,15 @@
       
     </div>
     
-      <script src="../assets/javascripts/vendor.0ac82a11.min.js"></script>
-      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../assets/javascripts/vendor.08c56446.min.js"></script>
+      <script src="../assets/javascripts/bundle.6ced434e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "..",
           features: ['navigation.instant'],
           search: Object.assign({
-            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+            worker: "../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
