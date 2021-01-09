@@ -2,14 +2,18 @@
   <v-container>
     <v-alert v-if="newVersion" color="green" type="success" outlined>
       A New Version of Mealie is Avaiable,
-      <a href="https://github.com/hay-kot/mealie" class="green--text">
+      <a
+        href="https://github.com/hay-kot/mealie/releases/latest"
+        target="_blank"
+        class="green--text"
+      >
         Visit the Repo
       </a>
     </v-alert>
     <Theme />
-    <Backup />
-    <Webhooks />
-    <Migration />
+    <Backup class="mt-2" />
+    <Webhooks class="mt-2" />
+    <Migration class="mt-2" />
     <p class="text-center my-2">
       Version: {{ version }} | Latest: {{ latestVersion }} ·
       <a href="https://hay-kot.github.io/mealie/" target="_blank">
@@ -43,7 +47,7 @@ export default {
   data() {
     return {
       latestVersion: null,
-      version: "v0.0.1",
+      version: "v0.0.2",
     };
   },
   mounted() {
